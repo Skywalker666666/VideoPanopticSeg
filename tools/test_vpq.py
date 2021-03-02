@@ -8,6 +8,11 @@
 import argparse
 import os
 import os.path as osp
+
+import sys
+sys.path.insert(1, "/home/zhiliu/Documents/Panoptic_Segement/Videopanoptic/VideoPanopticSeg/")
+#sys.path.insert(0, osp.join(osp.dirname(osp.abspath(__file__)), '../'))
+
 import shutil
 import tempfile
 import numpy as np

@@ -149,7 +149,7 @@ test_cfg = dict(
 # dataset settings
 # dataset_type = 'CityscapesVideoOfsDataset'
 dataset_type = 'CityscapesVPSDataset'
-data_root = 'data/cityscapes_vps/'
+data_root = '/home/zhiliu/Documents/Panoptic_Segement/Videopanoptic/VideoPanopticSeg/data/cityscapes_vps/'
 img_norm_cfg = dict(
     mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True)
 train_pipeline = [

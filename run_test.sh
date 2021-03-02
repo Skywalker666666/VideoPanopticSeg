@@ -1,0 +1,1 @@
+python tools/test_vpq.py configs/cityscapes/fusetrack.py work_dirs/cityscapes_vps/fusetrack_vpct/latest.pth --out work_dirs/cityscapes_vps/fusetrack_vpct/val.pkl --pan_im_json_file data/cityscapes_vps/panoptic_im_val_city_vps.json --n_video 50 --mode val
